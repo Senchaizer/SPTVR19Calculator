@@ -15,7 +15,10 @@ public class JavaApplication777 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("-----Калькулятор-----");
+        App app = new App();
+        app.run();
+        System.out.println("---Конец программы---");
     }
     
 }
